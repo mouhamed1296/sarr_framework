@@ -1,0 +1,25 @@
+html,
+body {
+  height: 100%;
+  font-size: 1rem;
+  font-family: "Montserrat", sans-serif;
+}
+
+.gradient {
+  background: #0061f2;
+  background: linear-gradient(135deg, #0061f2 0%, #00aefe 100%);
+}
+
+footer {
+  color: #fff;
+  font-size: 1rem;
+  margin: 0;
+  padding: 1rem;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=main.css.map */

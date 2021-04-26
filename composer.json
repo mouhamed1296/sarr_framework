@@ -1,0 +1,23 @@
+{
+    "name": "mamadousarr/form",
+    "description": "generateur de formulaire html",
+    "license": "MIT",
+    "autoload":{
+        "files":[
+            "views/build/form.tbx.php",
+            "views/build/menu.tbx.php",
+            "views/build/contact.tbx.php",
+            "views/build/about.tbx.php",
+            "views/build/footer.tbx.php"
+        ],
+        "psr-4": {
+            "App\\": "."
+        }
+    },
+    "require": {
+        "cerdic/css-tidy": "^1.7",
+        "gajus/dindent": "^2.0",
+        "vlucas/phpdotenv": "^5.2",
+        "ext-pdo": "*"
+    }
+}
